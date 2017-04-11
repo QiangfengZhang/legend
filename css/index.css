@@ -1,0 +1,425 @@
+/*整页布局开始*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*整页布局结束*/
+
+/*导航部分开始*/
+
+.nav {
+	width: 100%;
+	height: 77px;
+	background-color: #0d3440;
+	border-bottom: 2px solid yellow;
+}
+
+.nav ul {
+	list-style: none;
+}
+
+.nav ul li {
+	float: left;
+	line-height: 77px;
+}
+
+.nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.nav .legend {
+	width: 56%;
+	margin-left: 7%;
+}
+
+.nav .legend a {
+	display: inline-block;
+	height: 77px;
+	font-size: 1.8vw;
+	font-weight: 700;
+}
+
+.nav .legend a:hover {
+	color: yellow;
+}
+
+.nav .nav_list {
+	width: 5%;
+	margin-left: 1%;
+}
+
+.nav .nav_list a {
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+}
+
+.nav .nav_list a:hover {
+	background-color: yellow;
+	color: black;
+}
+
+/*导航部分结束*/
+
+/*标题部分开始*/
+
+.title {
+	width: 100%;
+}
+
+.title .top {
+	width: 100%;
+	height: 423px;
+	background: url(../img/top-bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.title .top p {
+	width: 83.5%;
+	height: 61px;
+	margin: 157px auto;
+	font-size: 2.5vw;
+	font-weight: 900;
+}
+
+.title .top .left {
+	color: #f0bf02;
+}
+
+.title .top .right {
+	color: #ffffff;
+}
+
+.title .foot {
+	width: 100%;
+	height: 300px;
+	background-color: #f3c503;
+	margin-top: 5px;
+	overflow: hidden;
+	box-shadow: 0 5px 5px #cccccc;
+}
+
+.title .foot .context {
+	width: 66%;
+	font-size: 2.5vw;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 80px;
+	color: #ffffff;
+}
+
+/*标题部分结束*/
+
+/*主页部分开始*/
+
+.main .por {
+	width: 100%;
+	overflow: hidden;
+}
+
+.por .por_logo {
+	width: 100%;
+	text-align: center;
+}
+
+.por .por_logo .logo {
+	display: inline-block;
+	width: 7%;
+	margin-top: 127px;
+}
+
+.por .por_logo .logo img {
+	width: 100%;
+}
+
+.main h3 {
+	font-size: 2vw;
+	padding: 30px 0;
+}
+
+.por .pic_wall {
+	width: 87%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.por .pic_wall .pic {
+	float: left;
+	font-size: 1.5vw;
+	margin: 0 1%;
+}
+
+.por .pic_wall .top {
+	display: inline-block;
+	width: 100%;
+}
+
+.por .pic_wall .top img {
+	width: 100%;
+	height: 100%;
+}
+
+.por .pic_wall .author {
+	width: 100%;
+	line-height: 64px;
+	font-weight: 600;
+}
+
+.por .pic_wall .article {
+	width: 100%;
+}
+
+.por .pic_wall .vp {
+	width: 100%;
+	color: #f0bf11;
+	line-height: 86px;
+	font-weight: 600;
+}
+
+@media only screen and (min-width: 1348px){
+    .pic{
+        width: 31%;
+    }
+}
+
+.main .service {
+	width: 100%;
+	margin-top: 24px;
+	box-shadow: 0 5px 5px #cccccc;
+	overflow: hidden;
+}
+
+.main .service .ser_logo {
+	width: 100%;
+	text-align: center;
+}
+
+.main .service .ser_logo .logo {
+	display: inline-block;
+	width: 7%;
+	margin-top: 8px;
+}
+
+.main .service .ser_context {
+	width: 87%;
+	height: 500px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.main .service .ser_context .demo {
+	float: left;
+	width: 20%;
+	height: 300px;
+	text-align: center;
+	margin: 100px 2.5%;
+	background-color: #e9e9e9;
+}
+
+.main .service .ser_context .demo img {
+	margin-top: 20px;
+}
+
+.main .service .ser_context .demo .wb {
+	font-size: 2vw;
+	font-weight: 600;
+	padding: 10px 0;
+}
+
+.main .thanks {
+	width: 87%;
+	height: 300px;
+	margin: 5px auto;
+	background-color: yellow;
+}
+
+.main .thanks .words {
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-right: 30%;
+	font-size: 2vw;
+	font-weight: 600;
+	color: black;
+}
+
+.main .blog {
+	width: 100%;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.main .blog .blog_logo {
+	width: 100%;
+	text-align: center;
+}
+
+.main .blog .blog_logo img {
+	margin-top: 100px;
+}
+
+.main .blog .show {
+	width: 88%;
+	margin: 0 auto;
+}
+
+.main .blog .show .demo {
+	width: 32%;
+	background-color: #fbfbfb;
+	padding: 0 0.6%;
+	float: left;
+}
+
+.main .blog .show .img {
+	width: 100%;
+}
+
+.main .blog .show .img img {
+	width: 100%;
+	height: 100%;
+}
+
+.main .blog .show .demo .date {
+	width: 100%;
+	line-height: 60px;
+}
+
+.main .blog .show .demo .date span {
+	margin-left: 64%;
+	font-size: 1vw;
+}
+
+.main .blog .show .demo h5 {
+	margin-left: 6.6%;
+}
+
+.main .blog .show .demo .words {
+	display: inline-block;
+	margin: 6.6%;
+}
+
+.main .blog .show .demo .read {
+	margin-left: 6.6%;
+	font-size: 1.2vw;
+	color: orange;
+}
+
+.main .blog .link p {
+	width: 100%;
+	text-align: center;
+}
+
+.main .blog .link .b {
+	width: 15%;
+	padding: 20px 0;
+	background-color: #f0bf02;
+    color:#ffffff;
+    font-size: 0.5vw;
+    font-weight: 900;
+    margin: 117px auto;
+    border: 0;
+}
+
+.main .team {
+	width:100%;
+	overflow: hidden;
+	background-color: #322b20;
+}
+
+.main .team .team_logo {
+	width:100;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.main .team .teamates {
+	width: 70.6%;
+	margin: 76px auto;
+	overflow: hidden;
+}
+
+.main .team .teamates .teamate {
+	width: 15.8%;
+    margin: 0 2.1%;
+    float: left;
+    text-align: center;
+}
+
+.main .team .teamates .teamate img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.main .team .knowmore {
+	width:72.4%;
+    margin-left: 14%;
+    text-align: center;
+    color:#ffffff;
+}
+
+.main .team .knowmore h4 {
+	margin-top: 112px;
+    margin-bottom: 30px;
+}
+
+.main .team .mail {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.main .team .text {
+	width: 87%;
+	margin: 0 auto;
+}
+
+.main .team .text input {
+	width: 48%;
+	padding: 20px 0;
+	float: left;
+	margin-bottom: 19px;
+	border-radius: 5px;
+}
+
+.main .text .name{
+    margin-right: 3%;
+}
+
+.main .text .company{
+    margin-right: 3%;
+}
+
+.main .team .text .many {
+	width: 100%;
+	height: 230px;
+	border-radius: 10px;
+}
+
+.main .team .text button {
+	background-color: #f0bf02;
+    padding:20px 25px ;
+    color:#ffffff;
+    font-weight: 900;
+    border: 0;
+    border-radius: 5px;
+}
+
+.main .footer {
+	width: 100%;
+	text-align: center;
+	font-size: 2vw;
+	font-weight: 100;
+	margin: 50px auto;
+}
+
+
+
